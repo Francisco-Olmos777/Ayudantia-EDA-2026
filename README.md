@@ -1,2 +1,3 @@
-# Estructura-de-Datos
-Ayudantia Estructura de datos
+# Ayudantias Estructura-de-Datos
+Seccion 7
+
