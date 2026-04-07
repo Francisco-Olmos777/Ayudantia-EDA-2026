@@ -1,5 +1,5 @@
 # Ayudantias Estructura-de-Datos
-Repositorio para actividades hechas en ayudantías Estructura de Datos y Algoritmos 2025-1 Sección 1
+Repositorio para actividades hechas en ayudantías Estructura de Datos y Algoritmos 2026-7 Sección 7
 
 Ayudante: Francisco Olmos
 
