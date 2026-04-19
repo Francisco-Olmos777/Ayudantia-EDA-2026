@@ -37,7 +37,7 @@ public class mezclar{
             }
             System.out.printf("null\n");
         }
-        
+        //ejemplo con iteraciones
         public static linkedlist solve(linkedlist uno, linkedlist dos){
             linkedlist mezcla = new linkedlist();
             Node aux1 = uno.head;
@@ -61,8 +61,18 @@ public class mezclar{
             }
             return mezcla;
         }
-    
-    }
+        //ejercicio conr recursividad
+        public static Node intercalarPlaylists(Node l1, Node l2) {
+            // 1. Casos bases
+            if (l1 == null) return l2;
+            if (l2 == null) return l1;
+        
+            // 2. Paso Recursivo
+            l1.next = intercalarPlaylists(l2, l1.next);
+        
+            // 3. Retorno del nodo cabecilla que tiene las referencias
+            return l1;
+        }
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
         
@@ -91,7 +101,7 @@ public class mezclar{
         System.out.printf("Lista 2: ");
         dos.print();
         System.out.printf("Listas mezcladas: ");
-        linkedlist.solve(uno, dos).print();
+        linkedlist.intercalarPlaylists(uno, dos).print();
         scan.close();
     }
 }
